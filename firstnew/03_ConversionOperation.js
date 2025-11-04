@@ -20,10 +20,40 @@ let b = Number(a)
 
 let aa = 0
 let bb = Boolean(aa)
-console.log(aa)
-console.log(bb)
-console.log(typeof aa)
-console.log(typeof bb)
+// console.log(aa)
+// console.log(bb)
+// console.log(typeof aa)
+// console.log(typeof bb)
 // null = in Boolean = aa = type is object bb = false 
 //undefined = in boolean = aa = type is undefined bb = false 
 // 1 = is true 0 = is false 
+// ******************************** operator ********************************************
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2/2)
+// console.log(2%2)
+let name = "Sumit"
+let cast = " gurjar"
+
+// console.log(name + cast)
+// console.log("1" + 2) = 12
+
+// console.log( 1 + "2") = 12
+
+// console.log("1" + 2 + 2) =112
+
+// console.log("1"+ (2+2)) = 14
+
+// console.log(2 + 2 + "3") = 43
+
+// console.log(2 + ( 2 + "3")) = 223
+
+// console.log("1" + "2") = 12
+console.log(true)
+console.log(+true)
+let change = 100
+++change 
+change++
+console.log(change)
+// prefix // postfix = mdn
